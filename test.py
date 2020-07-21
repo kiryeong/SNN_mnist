@@ -53,7 +53,7 @@ eqs = '''
       tau : second
       '''
      
-G1 = NeuronGroup(100, eqs, threshold='v>32.75', reset='v=0', refractory = 5*ms, method = 'exact')
+G1 = NeuronGroup(100, eqs, threshold='v>65.5', reset='v=0', refractory = 5*ms, method = 'exact')
 G1.I = 0
 G1.tau = 20*ms
 
