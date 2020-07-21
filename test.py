@@ -5,8 +5,6 @@ Created on Fri Jul 10 13:25:14 2020
 @author: SAMSUNG
 """
 
-
-
 from brian2 import *
 import numpy as np
 import matplotlib.pyplot as plt
