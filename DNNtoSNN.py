@@ -5,8 +5,6 @@ Created on Mon Jul  6 23:49:18 2020
 @author: SAMSUNG
 """
 
-
-
 from brian2 import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -59,7 +57,7 @@ for i in range(100):
           tau : second
           '''
           
-    G1 = NeuronGroup(100, eqs, threshold='v>32.75', reset='v=0', refractory = 5*ms, method = 'exact')
+    G1 = NeuronGroup(100, eqs, threshold='v>65.5', reset='v=0', refractory = 5*ms, method = 'exact')
     G1.I = 0
     G1.tau = 20*ms
 
