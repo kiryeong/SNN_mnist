@@ -5,8 +5,6 @@ Created on Mon Jun 29 09:47:55 2020
 @author: user
 """
 
-
-
 from brian2 import *
 import numpy as np
 import matplotlib.pyplot as plt
